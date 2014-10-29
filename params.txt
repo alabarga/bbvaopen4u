@@ -1,0 +1,4 @@
+date_min=20131215
+date_max=20140115
+group_by=day
+category=all
