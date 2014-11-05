@@ -144,8 +144,8 @@ def main(argv):
                             print sql2
 
                             #Insert entry in CartoDB
-                            #payload2 = {'q': sql2, 'api_key': cdb_api_key}
-                            #r3 = requests.get(cartodb_url_sql % cdb_user, params=payload2)
+                            payload2 = {'q': sql2, 'api_key': cdb_api_key}
+                            r3 = requests.get(cartodb_url_sql % cdb_user, params=payload2)
 
 
 
